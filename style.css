@@ -1,12 +1,28 @@
-body {
-    
+body {    
     display:flex;
     flex-direction:column;
     align-items:center;
+    background-color:#6b9aff;
+    color:#000000;
+    font-family:sans-serif;
 }
+
+body.dark {
+    background-color:#263658;}
 
 button {
     width:150px;
+    background-color: #4667ad;
+    border:2px solid black;
+    border-radius:50px;
+}
+
+button:hover {
+    background-color:#375188;
+}
+
+button:active {
+    transform:scale(1.1);
 }
 
 img:active {
